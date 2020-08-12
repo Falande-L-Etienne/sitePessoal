@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.menu{
+    height: 50px;
+    padding-top: 20px;
+    background-color: white;
+    
+}
+header {
+    position: relative;
+}
+
+.menu ul {
+  float: right;
+}
+
+.menu ul li {
+    display: inline;
+    margin-left: 100px;
+    margin-right: 20px;
+    font-size: 20px;
+    position: relative;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:link{
+    color: #2b2727;
+}
+
+a:visited{
+    color: #2b2828;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: rgb(252, 171, 90);
+    font-size: 25px;
+}
+
+a:active{
+    color: coral;
+}
+
+.teto{
+    color: white;
+    background-color: rgb(255, 181, 107);
+}
+.teto ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.teto li{ 
+    list-style: none;
+}
+
+
+main{
+    background-color:wheat;
+    height: 1300px;
+   
+    
+}
+
+.principal{
+    padding-top: 30px;
+    font-family: 'Cinzel', serif;
+    color: rgb(255, 181, 107);
+    text-align: center;
+}
+
+div.titulo {
+    margin-top: 50px;
+    height: 2px;
+    background-color: white;
+    text-align: center;
+  }
+  div.titulo span {
+    color: black;
+    background-color: wheat;
+    position: relative;
+    top: -0.5em;
+    padding: 0 10px;
+    
+  }
+
+
+h2 { 
+    padding-top: 200px;
+    position: absolute; 
+    top: 350px; 
+    left: 0; 
+    width: 100%; /*isso faz o h2 ficar no meio da tela com 100%*/
+    letter-spacing: 3px;/*espaçamento entre caracteres*/
+    line-height: 1.8;
+
+ }
+
+img{
+    margin-top: 0px;
+    border-radius: 40%;
+    padding-right: 0px;
+    margin-right: 0px;
+    
+}
+
+p{
+    padding-top: 50px;
+    font-family: 'Cinzel', serif;
+    letter-spacing: 3px;
+    line-height: 1.8;  
+    font-size: x-large;
+    color: black;
+}
+
+
+address{
+    padding-top: 15px;
+}
+#contato{
+    margin-top: 5px;
+    background-color: rgb(255, 181, 107);
+    color: #ffffff;
+    height: 70px;
+    text-align: center;
+}
